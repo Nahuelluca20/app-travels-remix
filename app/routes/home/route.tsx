@@ -1,3 +1,3 @@
 export default function Route() {
-  return <div>home</div>;
+  return <div className="text-red-200">home</div>;
 }
