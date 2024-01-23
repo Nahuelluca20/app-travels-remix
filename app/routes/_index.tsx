@@ -12,10 +12,10 @@ export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
       <h1>Welcome to Remix page with </h1>
+      <Link to="/home">Home</Link>
+      <Link to="/home">Dashboard</Link>;
       <ul>
-        <li>
-          <Link to="/home">Home</Link>
-        </li>
+        <li></li>
         <li>
           <a
             target="_blank"

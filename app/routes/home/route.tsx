@@ -1,10 +1,10 @@
 import { Button } from "~/ui/components/Button";
 
-export default function Route() {
+export default function home() {
   return (
-    <div className="text-red-200">
+    <div>
       home
-      <Button>HOLA</Button>
+      <Button variant="destructive">HOLA</Button>
     </div>
   );
 }
